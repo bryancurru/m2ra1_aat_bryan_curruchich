@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",          // Versión de JavaScript de salida
+      "module": "commonjs",     // Sistema de módulos a utilizar
+      "outDir": "./dist",       // Directorio de salida
+      "rootDir": "./src",       // Directorio raíz de entrada
+      "strict": true            // Habilitar todas las verificaciones estrictas
+    },
+    "include": [
+      "src/**/*.ts"             // Archivos a incluir
+    ],
+    "exclude": [
+      "node_modules"            // Archivos a excluir
+    ]
+  }
